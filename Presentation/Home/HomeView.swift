@@ -28,9 +28,9 @@ struct HomeView: View {
                                 .resizable()
                                 .frame(width: 21, height: 21)
                         }
-                        DetailedComponent(humidity: weatherInfo.humidity,
-                                          uv: weatherInfo.uvIndex,
-                                          feelsLike: weatherInfo.feelsLike)
+                        DetailedComponentView(humidity: weatherInfo.humidity,
+                                              uv: weatherInfo.uvIndex,
+                                              feelsLike: weatherInfo.feelsLike)
                     }
                     else {
                         CityCardView(cityName: weatherInfo.cityName,

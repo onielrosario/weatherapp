@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct DetailedComponent: View {
+struct DetailedComponentView: View {
     @State var humidity: Int
     @State var uv: Double
     @State var feelsLike: Double
@@ -43,5 +43,5 @@ struct DetailedComponent: View {
 }
 
 #Preview {
-    DetailedComponent(humidity: 30, uv: 4.0, feelsLike: 28.0)
+    DetailedComponentView(humidity: 30, uv: 4.0, feelsLike: 28.0)
 }
