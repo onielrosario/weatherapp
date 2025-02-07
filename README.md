@@ -91,9 +91,6 @@ WeatherApp/
 2. **Open** `WeatherApp.xcodeproj` in Xcode.
 3. **Configure** your WeatherAPI key:
    - In `Weather_App.swift`, replace `YOUR_API_KEY_HERE` with your actual key. or
-     ```bash
-     use 730954a677e64ee3841173344251501 for testing
-     ```
 
 4. **Build and Run** on an iOS Simulator or a physical device.
 
